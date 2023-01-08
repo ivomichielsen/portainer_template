@@ -2092,11 +2092,15 @@
           "bind": "/portainer/AppData/Organizr/Config"
         }
       ],
+      "config": {
+        "platform-check": false
+      },
       "env": [
         {
           "name": "PUID",
           "label": "PUID",
           "default": "1000"
+          
         },
         {
           "name": "PGID",
