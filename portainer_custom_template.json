@@ -93,6 +93,35 @@
       ]
     },
     {
+      "categories": ["Tools", "Authentication"],
+      "description": "Authentik is an open-source Identity Provider focused on flexibility and versatility",
+      "env": [
+        {
+          "default": "1000",
+          "label": "PUID",
+          "name": "PUID"
+        },
+        {
+          "default": "1000",
+          "label": "PGID",
+          "name": "PGID"
+        },
+        {
+          "label": "PORT",
+          "name": "PORT"
+        }
+      ],
+      "logo": "https://goauthentik.io/img/icon_left_brand.svg",
+      "name": "Authentik",
+      "platform": "linux",
+      "repository": {
+        "stackfile": "Template/Stack/authentik.yml",
+        "url": "https://github.com/xneo1/portainer_templates"
+      },
+      "title": "Authentik",
+      "type": 3
+    },
+    {
       "type": 1,
       "title": "Bazarr",
       "name": "bazarr",
