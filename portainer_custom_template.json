@@ -61,6 +61,19 @@
         }
       ]
     },
+        {
+      "categories": ["Development"],
+      "description": "Appwrite is a self-hosted backend-as-a-service platform that provides developers with all the core APIs required to build any application.", 
+      "logo": "https://appwrite.io/images/appwrite.svg",
+      "name": "appwrite",
+      "platform": "linux",
+      "repository": {
+	    "stackfile": "stack/appwrite.yml",
+	    "url": "https://github.com/ivomichielsen/portainer_template"
+      },  
+      "title": "Appwrite",
+      "type": 3
+    },
     {
       "type": 1,
       "title": "Authelia",
@@ -131,8 +144,8 @@
       "name": "Authentik",
       "platform": "linux",
       "repository": {
-        "stackfile": "Template/Stack/authentik.yml",
-        "url": "https://github.com/xneo1/portainer_templates"
+        "stackfile": "Stack/authentik.yml",
+        "url": "https://github.com/ivomichielsen/portainer_template"
       },
       "title": "Authentik",
       "type": 3
