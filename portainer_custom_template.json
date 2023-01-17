@@ -107,8 +107,24 @@
           "name": "PGID"
         },
         {
+          "default": "9010",
           "label": "PORT",
           "name": "PORT"
+        },
+        {
+          "default": "secret_pass",
+          "label": "PG_PASS",
+          "name": "PG_PASS"
+        },
+        {
+          "default": "pguser",
+          "label": "PG_USER",
+          "name": "PG_USER"
+        },
+        {
+          "default": "pgdb",
+          "label": "PG_DB",
+          "name": "PG_DB"
         }
       ],
       "logo": "https://goauthentik.io/img/icon_left_brand.svg",
