@@ -241,8 +241,8 @@
     },
     {
       "type": 3,
-      "title": "Bitwarden Stack",
-      "description": "Stack with bitwarden-rs container and an nightly backup routine.",
+      "title": "Vaultwarden Stack",
+      "description": "Stack with Vaultwarden container",
       "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/bitwarden.png",
       "categories": [
         "Utilities"
@@ -250,7 +250,7 @@
       "platform": "linux",
       "repository": {
         "url": "https://github.com/ivomichielsen/portainer_template",
-        "stackfile": "stack/vaultwarden.yml"
+        "stackfile": "../stack/vaultwarden.yml"
       },
       "env": [
         {
