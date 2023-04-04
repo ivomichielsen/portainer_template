@@ -250,7 +250,7 @@
       "platform": "linux",
       "repository": {
         "url": "https://github.com/ivomichielsen/portainer_template",
-        "stackfile": "tree/main/stack/vaultwarden.yml"
+        "stackfile": "stack/vaultwarden.yml"
       },
       "env": [
         {
