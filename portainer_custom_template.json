@@ -292,12 +292,12 @@
     },
     {
       "type": 1,
-      "title": "Bitwarden RS",
-      "name": "bitwarden",
-      "description": "This is a Bitwarden server API implementation written in Rust compatible with upstream Bitwarden clients*, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal..",
+      "title": "Vaultwarden",
+      "name": "vaultwarden",
+      "description": "Alternative implementation of the Bitwarden server API in Rust, including the Web Vault. ",
       "note": "This project is not associated with the Bitwarden project nor 8bit Solutions LLC.",
       "logo": "https://raw.githubusercontent.com/SelfhostedPro/selfhosted_templates/master/Images/bitwarden.png",
-      "image": "bitwardenrs/server:latest",
+      "image": "vaultwarden/server:latest",
       "categories": [
         "Other",
         "Tools"
@@ -310,11 +310,11 @@
       "volumes": [
         {
           "container": "/config",
-          "bind": "/portainer/AppData/Bitwarden-rs/Config"
+          "bind": "/portainer/AppData/vaultwarden/Config"
         },
         {
           "container": "/data",
-          "bind": "/portainer/AppData/Bitwarden-rs/Data"
+          "bind": "/portainer/AppData/vaultwarden/Data"
         }
       ],
       "env": [
