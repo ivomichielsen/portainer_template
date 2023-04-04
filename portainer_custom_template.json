@@ -249,19 +249,19 @@
       ],
       "platform": "linux",
       "repository": {
-        "url": "https://github.com/AndyYangUK/portainer_templates",
-        "stackfile": "stacks/bitwarden.yml"
+        "url": "https://github.com/ivomichielsen/portainer_template",
+        "stackfile": "stack/vaultwarden.yml"
       },
       "env": [
         {
-          "name": "PORT",
-          "label": "PORT",
+          "name": "HTTPS_PORT",
+          "label": "HTTPS_PORT",
           "default": "5430"
         },
-        {
-          "name": "CRON_TIME",
-          "label": "CRON_TIME",
-          "default": "0 5 * * *"
+	{
+          "name": "HTTP_PORT",
+          "label": "HTTP_PORT",
+          "default": "5080"
         },
         {
           "name": "UUID",
@@ -282,6 +282,11 @@
           "name": "DOMAIN",
           "label": "DOMAIN",
           "default": "https://bw.domain.com"
+        },
+        {
+          "name": "EMAIL",
+          "label": "EMAIL",
+          "default": "bw@domain.com"
         }
       ]
     },
